@@ -53,6 +53,7 @@ nav {
 nav a {
   outline: none;
   text-decoration: none;
+  display: block;
 }
 
 nav a:link {
@@ -73,6 +74,8 @@ nav a:hover {
 
 nav ul {
   list-style-type: none;
+  padding: 0;
+  width: 90%;
 }
 
 nav ul li {
@@ -80,7 +83,7 @@ nav ul li {
   text-align: center;
   border: 2px solid white;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 0px 0px 20px 40px;
 }
 
 iframe {
